@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cuerpo{
+    width: 90%;
+    height: 100vh;
+    
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    top: 3em;
+   
+}
+
+#global{
+    height: 500px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+   padding-top: 1em;
+   border-radius: 15px;
+}
+
+.conversacion{
+   height: auto;
+   width: 90%;
+   
+   
+
+}
+
+.peticion{
+    width: 100%;
+    margin: auto;
+    height: 30%;
+    position: relative;
+    top: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+   
+}
+
+textarea{
+    width: 95%;
+    text-align: center;
+    height: 90px;
+    font-size: 17px;
+    font-family: verdana;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#enviar{
+    width: 200px;
+    margin-top: 1em;
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+    background-color: rgba(161, 26, 2, 0.884);
+    border-radius: 6px;
+    cursor: pointer;
+    color:#fff;
+    
+}
+
+body{
+    background-color: rgba(95, 145, 72, 0.623);
+}
+
+.res-bot{
+    padding: 8px;
+    background-color: rgba(120, 238, 238, 0.692);
+    width: 90%;
+    border-radius: 3px;
+    margin-top: 10px ;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-client{
+    padding: 8px;
+    background-color: rgba(211, 175, 241, 0.692);
+    width: 90%;
+    border-radius: 3px;
+    margin-top: 10px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-estates{
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    border-radius: 8px;
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#chatbot-estates{
+    margin-left: 6px;
+    font-weight: 600;
+    color: rgb(121, 17, 17);
+    font-size: 20px;
+}
+
+@media (min-width:600px){
+    #global{
+        width: 70%;
+    }
+}
+
+@media (min-width:980px){
+    #global{
+        width: 58%;
+    }
+}
+
+@media (min-width:1024px){
+    #global{
+        width: 45%;
+    }
+}
+
+@media (min-width:1200px){
+    #global{
+        width: 40%;
+    }
+}

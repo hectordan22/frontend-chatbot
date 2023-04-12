@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+
+    <section class="cuerpo">
+
+        <div id="container-estates">
+            <label for="chatbot-estates">Chat-bot UVM: </label>
+             <p id="chatbot-estates"> en linea</p>
+        </div>
+
+
+        <section id="global" >
+            <div class="conversacion">
+                <p class="res-bot"> Hola en que puedo ayudarte?</p>
+            </div>
+           
+        </section>
+    
+    
+        <section class="peticion">
+             <div id="formulario">
+                <textarea name="message"  cols="30" rows="10" id="message" placeholder="Escribe tu pregunta..."></textarea>
+                <input type="button" value="Enviar" id="enviar">
+             </div>
+        </section>
+        
+        <audio id="audi" src="./sonido/tono.mp3" preload="auto" style="display:none;" volume="0.5"></audio>
+
+    </section>
+   <script src="simulado.js"></script>
+</body>
+</html>
